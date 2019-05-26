@@ -1,0 +1,26 @@
+{
+    "channel": "sangoon_is_noob",
+      
+    "chat": {
+        "sangoon": "@늅산군 ",
+        "Play":"플레이: %game%",
+        "status":"제목: %status%",
+        "notclear":"응 못 해"
+    },
+    "bot" : {
+        "setting" :{
+            "prefix":">>",
+            "password": "",
+            "username": ""
+        }
+    },
+    "cmd": {
+        "chat": {
+            "clear":"clear",
+            "산군":"산군",
+            "uptime":"업타임",
+            "game":"게임",
+            "title":"제목"
+        }
+    }
+}
