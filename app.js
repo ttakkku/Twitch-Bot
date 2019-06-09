@@ -39,9 +39,6 @@ client.on("chat", (channel, user, message, self) => {
         client.action(local.channel, local.chat.notclear)
         }
     }
-   /* if (message === local.bot.setting.prefix + "userinfo"){
-        client.action(local.channel,  user.username)
-    }*/
     if (message ===  prefix + cmd.uptime) {
       request("https://decapi.me/twitch/uptime/" + local.channel, function (err, response, body) {
     if (err) {
